@@ -45,7 +45,7 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                 child: ListTile(
                   leading: Icon(
                     Icons.pets,
@@ -55,6 +55,7 @@ class MyApp extends StatelessWidget {
                   title: Text(
                     "Fujiwara Household",
                     style: TextStyle(
+                      letterSpacing: 2,
                       color: Colors.indigo[700],
                       fontFamily: 'Shadows Into Light',
                       fontSize: 20.0,
@@ -67,7 +68,7 @@ class MyApp extends StatelessWidget {
               ),
               Card(
                 color: Colors.white,
-                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 10.0),
+                margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
                 child: ListTile(
                   leading: Icon(
                     Icons.sports_bar,
@@ -77,6 +78,7 @@ class MyApp extends StatelessWidget {
                   title: Text(
                     "The Dog's Circle",
                     style: TextStyle(
+                      letterSpacing: 2,
                       color: Colors.indigo[700],
                       fontFamily: 'Shadows Into Light',
                       fontSize: 20.0,
